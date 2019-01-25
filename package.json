@@ -5,15 +5,19 @@
   "description": "Modular event handling through a TERA proxy server.",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/meishuu/tera-proxy-game.git"
+    "url": "git+https://github.com/kyoukaya/tera-proxy-game.git"
   },
   "main": "lib/index.js",
   "license": "GPL-3.0",
   "dependencies": {
-    "tera-data": "github:meishuu/tera-data"
+    "binary-search": "^1.3.2",
+    "tera-crypto-native": "github:caali-hackerman/tera-crypto-native",
+    "tera-crypto-js": "github:caali-hackerman/tera-crypto-js",
+    "tera-data-parser": "github:caali-hackerman/tera-data-parser-js",
+    "tera-vec3": "github:caali-hackerman/tera-vec3"
   },
   "bugs": {
-    "url": "https://github.com/meishuu/tera-proxy-game/issues"
+    "url": "https://github.com/kyoukaya/tera-proxy-game/issues"
   },
-  "homepage": "https://github.com/meishuu/tera-proxy-game#readme"
+  "homepage": "https://github.com/kyoukaya/tera-proxy-game#readme"
 }
